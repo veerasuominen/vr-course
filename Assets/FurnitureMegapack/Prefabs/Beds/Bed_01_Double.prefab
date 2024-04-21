@@ -118,9 +118,7 @@ GameObject:
   - component: {fileID: 2476629353118372186}
   - component: {fileID: 3492565169680483009}
   - component: {fileID: 8360113766072839482}
-  - component: {fileID: 6645915675967990612}
-  - component: {fileID: 4839966285923685998}
-  - component: {fileID: 7549859269659435583}
+  - component: {fileID: 8243920621908682737}
   m_Layer: 0
   m_Name: Bed_01_Double
   m_TagString: Untagged
@@ -324,8 +322,8 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!65 &6645915675967990612
-BoxCollider:
+--- !u!64 &8243920621908682737
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -342,51 +340,10 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.5954101, y: 0.58258355, z: 2.0102067}
-  m_Center: {x: -8.456016e-19, y: 0.29129177, z: -0.00024795532}
---- !u!65 &4839966285923685998
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4133808811557433487}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.5954101, y: 1.02972, z: 0.065390766}
-  m_Center: {x: -2.4817174e-15, y: 0.51486, z: -0.9726559}
---- !u!65 &7549859269659435583
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4133808811557433487}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.5954101, y: 0.7087869, z: 0.05534315}
-  m_Center: {x: -4.166419e-15, y: 0.35439345, z: 0.9771838}
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 5423538655336664107, guid: f93f820f40f74b546a7150a8ccd050ae, type: 3}
 --- !u!1 &4300706072801658990
 GameObject:
   m_ObjectHideFlags: 0
