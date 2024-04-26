@@ -241,6 +241,7 @@ GameObject:
   - component: {fileID: 3567793901811547737}
   - component: {fileID: 4446582872984117332}
   - component: {fileID: 5433816744508956232}
+  - component: {fileID: 4045884740041699862}
   m_Layer: 0
   m_Name: Cart_01_Prefab_01
   m_TagString: Untagged
@@ -284,9 +285,9 @@ MeshCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 5
-  m_Convex: 0
+  m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: -404649260398243088, guid: 2400cf7d5592140498977f2557ec1164, type: 3}
 --- !u!54 &3567793901811547737
@@ -481,3 +482,24 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
+--- !u!65 &4045884740041699862
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8131872151641621297}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.61330986, y: 0.031282663, z: 0.92007923}
+  m_Center: {x: 0.00012588501, y: 0.49979734, z: 0.19988298}
