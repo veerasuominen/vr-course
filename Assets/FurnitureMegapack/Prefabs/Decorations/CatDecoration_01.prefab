@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 425694450515086186}
   - component: {fileID: 5782808289816798162}
   - component: {fileID: 8279460797463183935}
-  - component: {fileID: 4740449293803501084}
+  - component: {fileID: 1744694057375765341}
   m_Layer: 0
   m_Name: CatDecoration_01
   m_TagString: Untagged
@@ -165,8 +165,8 @@ MonoBehaviour:
   m_InteractionLayers:
     m_Bits: 1
   m_DistanceCalculationMode: 1
-  m_SelectMode: 0
-  m_FocusMode: 1
+  m_SelectMode: 1
+  m_FocusMode: 2
   m_CustomReticle: {fileID: 0}
   m_AllowGazeInteraction: 0
   m_AllowGazeSelect: 0
@@ -297,8 +297,8 @@ MonoBehaviour:
   m_StartingSingleGrabTransformers: []
   m_StartingMultipleGrabTransformers: []
   m_AddDefaultGrabTransformers: 1
---- !u!136 &4740449293803501084
-CapsuleCollider:
+--- !u!65 &1744694057375765341
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -315,8 +315,6 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.09751454
-  m_Height: 0.33
-  m_Direction: 1
-  m_Center: {x: -0.028787374, y: 0.135, z: 0}
+  serializedVersion: 3
+  m_Size: {x: 0.15086985, y: 0.29318255, z: 0.11177635}
+  m_Center: {x: -0.0076167583, y: 0.14586994, z: -0.0056238174}
