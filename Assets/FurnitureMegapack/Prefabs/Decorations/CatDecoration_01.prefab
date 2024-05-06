@@ -128,7 +128,7 @@ GameObject:
   - component: {fileID: 4622248227811458924}
   m_Layer: 0
   m_Name: Code
-  m_TagString: Untagged
+  m_TagString: Code
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -450,7 +450,7 @@ MonoBehaviour:
       m_Calls: []
   m_AttachTransform: {fileID: 1646593842164329713}
   m_SecondaryAttachTransform: {fileID: 0}
-  m_UseDynamicAttach: 0
+  m_UseDynamicAttach: 1
   m_MatchAttachPosition: 1
   m_MatchAttachRotation: 1
   m_SnapToColliderVolume: 1
