@@ -4,12 +4,19 @@ using UnityEngine;
 
 public class GameEnd : MonoBehaviour
 {
+    [SerializeField]
     private Scanner scanner;
-    [SerializeField] private GameObject gameEndScreen;
+
+    [SerializeField]
+    private GameObject gameEndScreen;
+
+    [SerializeField]
+    private CharacterController characterController;
 
     // Start is called before the first frame update
-    private void Start()
+    private void Awake()
     {
+        gameEndScreen.SetActive(false);
     }
 
     // Update is called once per frame
@@ -18,6 +25,7 @@ public class GameEnd : MonoBehaviour
         if (scanner.scannedNumber >= 5)
         {
             gameEndScreen.SetActive(true);
+            characterController.enabled = false;
         }
     }
 }
