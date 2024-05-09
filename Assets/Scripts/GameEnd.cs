@@ -10,9 +10,6 @@ public class GameEnd : MonoBehaviour
     [SerializeField]
     private GameObject gameEndScreen;
 
-    [SerializeField]
-    private CharacterController characterController;
-
     // Start is called before the first frame update
     private void Awake()
     {
@@ -22,10 +19,10 @@ public class GameEnd : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-        if (scanner.scannedNumber >= 5)
+        if (scanner.scannedNumber == 5)
         {
             gameEndScreen.SetActive(true);
-            characterController.enabled = false;
         }
+        else { gameEndScreen.SetActive(false); }
     }
 }

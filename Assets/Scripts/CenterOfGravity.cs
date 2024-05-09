@@ -18,6 +18,7 @@ public class CenterOfGravity : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        //sets center of mass
 #if UNITY_EDITOR
         rb.centerOfMass = centerOfMass;
         rb.WakeUp();
@@ -25,7 +26,7 @@ public class CenterOfGravity : MonoBehaviour
     }
 
     private void OnDrawGizmos()
-    {
+    {//visualizes the center of mass
         Gizmos.color = Color.yellow;
         Gizmos.DrawSphere(transform.position + transform.rotation * centerOfMass, .05f);
     }
